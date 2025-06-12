@@ -11,14 +11,14 @@ Agentic AI refers to AI systems that can operate with a degree of independence, 
 - **Adaptability**: Responding to changing environments and learning from past interactions.
 - **Interoperability**: Ability to use different data sources, tools, and platforms to enhance decision-making.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## 2. Protocols for the Communications
 
 ### MCP
 
 The Model Context Protocol (MCP), introduced by Anthropic, defines a standardized interface for supplying structured, real-time context to large language models (LLMs).
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ### ACP
 
@@ -27,11 +27,11 @@ The Agent Communication Protocol (ACP) is an open standard originally proposed b
 ### A2A
 
 The Agent-to-Agent (A2A) Protocol, introduced by Google, is a cross-platform specification for enabling AI agents to communicate, collaborate, and delegate tasks across heterogeneous systems.
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ### Differencre Between MCP, A2A and ACP
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## 3. Frameworks
 
