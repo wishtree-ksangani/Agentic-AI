@@ -1,15 +1,23 @@
-# Agentic AI
+## 1. What is Agenitc AI & AI Agents?
 
-## 1. What is Agenitc AI?
+### AI Agent
+
+On the other hand, AI Agents are typically built to do specific tasks. They’re designed to help you with something — like answering questions, organizing your calendar, or even managing your email inbox. AI Agents are great at automating simple, repetitive tasks but don’t have the autonomy or decision-making abilities that Agentic AI does. Think of them as virtual helpers that do exactly what you tell them to do, without thinking for themselves.
+
+### Agentic AI
 
 Agentic AI refers to AI systems that can operate with a degree of independence, making decisions and taking actions to achieve specific goals.
 
-### Key Aspects
+#### Key Aspects
 
 - **Autonomy**: The ability to function without continuous human interaction.
 - **Goal-oriented behavior**: Setting and pursuing objectives based on predefined or evolving goals.
 - **Adaptability**: Responding to changing environments and learning from past interactions.
 - **Interoperability**: Ability to use different data sources, tools, and platforms to enhance decision-making.
+
+### Defference
+
+![alt text](images/image-4.png)
 
 ![alt text](images/image.png)
 
