@@ -1,84 +1,86 @@
-## 1. What is Agenitc AI & AI Agents?
+## 1. What is Agentic AI & AI Agents?
 
-### AI Agent
+### AI Agents
 
-On the other hand, AI Agents are typically built to do specific tasks. They’re designed to help you with something — like answering questions, organizing your calendar, or even managing your email inbox. AI Agents are great at automating simple, repetitive tasks but don’t have the autonomy or decision-making abilities that Agentic AI does. Think of them as virtual helpers that do exactly what you tell them to do, without thinking for themselves.
+AI Agents are designed to perform specific tasks, such as answering questions, organizing a calendar, or managing email. These agents automate simple, repetitive activities but lack the autonomy and decision-making capabilities of Agentic AI. Think of them as virtual assistants that follow direct instructions without independent reasoning.
 
 ### Agentic AI
 
-Agentic AI refers to AI systems that can operate with a degree of independence, making decisions and taking actions to achieve specific goals.
+Agentic AI refers to systems capable of independent decision-making and action toward achieving specific goals.
 
-#### Key Aspects
+#### Key Characteristics
 
-- **Autonomy**: The ability to function without continuous human interaction.
-- **Goal-oriented behavior**: Setting and pursuing objectives based on predefined or evolving goals.
-- **Adaptability**: Responding to changing environments and learning from past interactions.
-- **Interoperability**: Ability to use different data sources, tools, and platforms to enhance decision-making.
+* **Autonomy**: Operates without continuous human input.
+* **Goal-Oriented Behavior**: Pursues predefined or evolving objectives.
+* **Adaptability**: Learns from interactions and adapts to new situations.
+* **Interoperability**: Integrates with various tools, data sources, and platforms.
 
-### Defference
+### Differences Between AI Agents and Agentic AI
 
-![alt text](images/image-4.png)
-
-![alt text](images/image.png)
-
-## 2. Protocols for the Communications
-
-### MCP
-
-The Model Context Protocol (MCP), introduced by Anthropic, defines a standardized interface for supplying structured, real-time context to large language models (LLMs).
-![alt text](images/image-2.png)
-
-### ACP
-
-The Agent Communication Protocol (ACP) is an open standard originally proposed by BeeAI and IBM to enable structured communication, discovery, and coordination between AI agents operating in the same local or edge environment.
-
-### A2A
-
-The Agent-to-Agent (A2A) Protocol, introduced by Google, is a cross-platform specification for enabling AI agents to communicate, collaborate, and delegate tasks across heterogeneous systems.
-![alt text](images/image-3.png)
-
-### Differencre Between MCP, A2A and ACP
-
-![alt text](images/image-1.png)
-
-## 3. Frameworks
-
-Consider your development team’s skill level. A beginner-friendly AI framework such as CrewAI, for example, has a no-code interface for rapid prototyping and ready-made AI agent templates for swift deployment.
-
-More experienced AI developers might go for advanced agent frameworks such as LangGraph that offer low-level control and customizable code options.
-
-### I. Key Selection Criteria
-
-When choosing a framework, consider:
-
-- **Complexity**: Single vs. multi-agent systems (e.g., customer support vs. supply chain management).
-- **Security**: Encryption, access controls, and data privacy.
-- **Ease of Use**: No-code tools (e.g., CrewAI) vs. customizable code (e.g., LangGraph).
-- **Integration**: Compatibility with existing tech stacks (APIs, cloud/on-prem deployment).
-- **Scalability**: Performance under high data volumes or concurrent tasks.
+![Difference between AI Agent and Agentic AI](images/image-4.png)
+![Additional Comparison](images/image.png)
 
 ---
 
+## 2. Protocols for Communication
+
+### MCP (Model Context Protocol)
+
+Introduced by Anthropic, MCP defines a standard way to supply structured, real-time context to large language models.
+
+![MCP Overview](images/image-2.png)
+
+### ACP (Agent Communication Protocol)
+
+Proposed by BeeAI and IBM, ACP is an open standard for structured communication, discovery, and coordination among AI agents operating in local or edge environments.
+
+### A2A (Agent-to-Agent Protocol)
+
+Introduced by Google, A2A enables communication, task delegation, and collaboration across heterogeneous systems.
+
+![A2A Overview](images/image-3.png)
+
+### Comparison of MCP, A2A, and ACP
+
+![Protocol Comparison](images/image-1.png)
+
+---
+
+## 3. Frameworks
+
+Choose your framework based on your team’s skill level and project complexity.
+
+### I. Key Selection Criteria
+
+* **Complexity**: Single-agent vs. multi-agent systems.
+* **Security**: Includes encryption, access control, and data privacy.
+* **Ease of Use**: No-code tools (e.g., CrewAI, n8n, Langflow) vs. fully customizable code (e.g., LangGraph).
+* **Integration**: Compatibility with APIs, cloud infrastructure, and other tech stacks.
+* **Scalability**: Efficient performance with large-scale data and concurrent operations.
+
 ### II. Leading Open-Source Frameworks
 
-| Framework              | Key Features                                                     | Best For                                     |
-|------------------------|------------------------------------------------------------------|----------------------------------------------|
-| **AutoGen (Microsoft)**| Multi-agent layers (Core, AgentChat, Extensions); debugging tools| Conversational AI, code automation           |
-| **CrewAI**             | Role-based agents (e.g., Analyst, Researcher); sequential/hierarchical workflows | Team collaboration (e.g., stock analysis) |
-| **LangChain**          | Modular components for LLM apps; supports simple agents          | Custom chatbots, document processing         |
-| **LangGraph**          | Graph-based workflows (nodes = tasks, edges = transitions)       | Non-linear processes (e.g., travel booking)  |
-| **LlamaIndex**         | Event-driven architecture; async workflows                       | Dynamic RAG applications                     |
-| **Semantic Kernel (Microsoft)** | "Skills" and "planners" for enterprise apps             | Microsoft ecosystem integration              |
+| Framework               | Key Features                                          | Best For                                    |
+| ----------------------- | ----------------------------------------------------- | ------------------------------------------- |
+| **AutoGen (Microsoft)** | Multi-agent layers, debugging tools                   | Conversational AI, code automation          |
+| **CrewAI**              | Role-based agents, hierarchical workflows             | Team collaboration (e.g., stock analysis)   |
+| **LangChain**           | Modular LLM components, agent support                 | Custom chatbots, document processing        |
+| **LangGraph**           | Graph-based workflows for task flow control           | Non-linear processes (e.g., travel booking) |
+| **LlamaIndex**          | Event-driven and async architecture                   | Dynamic RAG applications                    |
+| **Semantic Kernel**     | Skills and planners for enterprise applications       | Microsoft ecosystem integration             |
+| **Langflow**            | Visual programming interface for LangChain agents     | No-code/low-code agent workflows            |
+| **n8n**                 | Workflow automation with integrations and LLM support | No-code orchestration for data + agents     |
+
+---
 
 ## References
 
 ### Articles
 
-- [AI Agents vs Agentic AI](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)
-- [A2A, MCP & ACP](https://medium.com/@elisowski/what-every-ai-engineer-should-know-about-a2a-mcp-acp-8335a210a742) :- Discussed how all protocols are differs.
+* [AI Agents vs Agentic AI](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)
+* [Understanding A2A, MCP & ACP](https://medium.com/@elisowski/what-every-ai-engineer-should-know-about-a2a-mcp-acp-8335a210a742)
+* [Top Agentic AI Frameworks](https://www.ibm.com/think/insights/top-ai-agent-frameworks)
 
-- [Agentic AI Frameworks](https://www.ibm.com/think/insights/top-ai-agent-frameworks)
+### GitHub Repository
 
-### Github Repository
-
-- [Microsoft repo to start with agentic ai](https://github.com/microsoft/ai-agents-for-beginners?tab=readme-ov-file)
+* [Microsoft - AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners?tab=readme-ov-file)
