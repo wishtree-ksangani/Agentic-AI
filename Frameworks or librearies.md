@@ -1,1 +1,2 @@
 - https://www.pipecat.ai :- Open source framework for voice and multimodal conversational AI.
+- https://n8n.io/ :- For automation workflow
